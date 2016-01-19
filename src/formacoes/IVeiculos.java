@@ -7,7 +7,11 @@ package formacoes;
 
 /**
  *
- * @author Tropa
+ * @author Udo Branco <udobranco@gmail.com>
+ */
+
+/**
+ * interface que estipula as acoes basicas de um veiculo
  */
 public interface IVeiculos {
 
