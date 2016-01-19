@@ -7,7 +7,7 @@ package formacoes;
 
 /**
  *
- * @author Tropa
+ * @author Udo Branco <udobranco@gmail.com>
  */
 public class Mota extends Veiculos{
 
