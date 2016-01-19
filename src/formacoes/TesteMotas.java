@@ -9,6 +9,8 @@ package formacoes;
  *
  * @author Tropa
  */
+
+/* proof of concept */ 
 public class TesteMotas {
 
     public static void Main (String[]args){
