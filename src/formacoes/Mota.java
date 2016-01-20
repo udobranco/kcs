@@ -25,6 +25,22 @@ public class Mota extends Veiculos{
     super.startUpType=startUpType;
     }
 
+    
+    /**
+     * 
+     * @param nrodas
+     * @param cilindrada
+     * @param abs
+     * @param startUpType 
+     */
+    public Mota(int nrodas, int cilindrada,boolean abs,char startUpType) {
+    
+    super.nRodas=nrodas;
+    super.cilindrada=cilindrada;
+    super.abs=abs;
+    super.startUpType=startUpType;
+    }
+    
     @Override
     public void andar() {
     }
@@ -33,6 +49,9 @@ public class Mota extends Veiculos{
     public void travar() {
     }
 
+    /**
+     * 
+     */
     @Override
     public void on() {
     }
