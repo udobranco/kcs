@@ -9,9 +9,10 @@ package formacoes;
  *
  * @author Udo Branco <udobranco@gmail.com>
  */
-public interface IPoligon {
+public interface IPoligono {
     
-    public abstract double getPerimetro();
+    public abstract void getPerimetro();
     public abstract Ponto[] getPontos();
+    public abstract void pointsToString();
     
 }
