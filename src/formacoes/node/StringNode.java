@@ -1,24 +1,24 @@
-/*
+    /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package formacao.node;
+package formacoes.node;
 
 /**
  *
  * @author Udo Branco <udobranco@gmail.com>
  */
-public class BooleanNode extends ValueNode<Boolean>{
+public class StringNode extends ValueNode<String>{
     
-    private Boolean value;
+    private String value;
     
-    public BooleanNode(Boolean value){
+    public StringNode(String value){
     this.value=value;
     }
 
     @Override
-    public Boolean getValue() {
+    public String getValue() {
         return value;
     }
     

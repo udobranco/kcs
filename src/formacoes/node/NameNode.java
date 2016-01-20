@@ -3,25 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package formacao.node;
+package formacoes.node;
 
 /**
  *
  * @author Udo Branco <udobranco@gmail.com>
  */
-public class NumberNode extends ValueNode<int>{
+public class NameNode extends StringNode{
     
-private int value;
-    
-    public NumberNode(int value){
-    this.value=value;
+    public NameNode(String value) {
+        super(value);
     }
-
-    @Override
-    public int getValue() {
-        return value;
-    }
-
-    
     
 }
