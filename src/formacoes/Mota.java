@@ -59,6 +59,15 @@ public class Mota extends Veiculos{
     @Override
     public void off() {
     }
+
+    public int getnRodas() {
+        return nRodas;
+    }
+
+    public void setnRodas(int nRodas) {
+        this.nRodas = nRodas;
+    }
+    
     
     
 }
