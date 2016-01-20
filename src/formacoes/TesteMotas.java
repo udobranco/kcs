@@ -17,7 +17,7 @@ public class TesteMotas {
     
         Mota mota125=new Mota(125, false, '0');
         Mota mota500=new Mota(500, true, '1');
-    
+ 
         
     }
 }
