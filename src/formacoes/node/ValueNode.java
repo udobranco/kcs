@@ -13,6 +13,8 @@ public abstract class ValueNode<T> implements INode {
 
     public ValueNode(String value) {
     }
+    public ValueNode() {
+    }
     
     //public ValueNode(T val){}
 

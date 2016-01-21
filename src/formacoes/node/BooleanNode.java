@@ -13,6 +13,7 @@ public class BooleanNode extends ValueNode<Boolean>{
     
     private Boolean value;
     
+  
     public BooleanNode(Boolean value){
     this.value=value;
     }
