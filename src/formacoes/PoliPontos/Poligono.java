@@ -20,32 +20,33 @@ public abstract class Poligono implements IPoligono {
      * @return
      */
     @Override
-    public void getPerimetro(){
+    public void getPerimetro() {
         double perimeter = 0;
         for (int i = 0; i < pontos.length - 1; i++) {
             perimeter += pontos[i].distance(pontos[i + 1]);
         }
-        perimeter += pontos[0].distance(pontos[pontos.length-]);
-        System.out.println("O perimetro é: "+perimeter);
+        perimeter += pontos[0].distance(pontos[pontos.length - 1]);
+        System.out.println("O perimetro é: " + perimeter);
     }
 
     /**
      * returns all the points of a poligon
-     * @return 
+     *
+     * @return
      */
     @Override
     public Ponto2D[] getPontos() {
         return pontos;
     }
-    
+
     /**
      * method to show all the points of a poligon
      */
     @Override
-    public void pointsToString(){
-    System.out.print("Os pontos da figura sao:");
-    for(int i=0;i<pontos.length;i++){
-    System.out.print(" ("+pontos[i].getX()+","+pontos[i].getY()+")");
-    }
+    public void pointsToString() {
+        System.out.print("Os pontos da figura sao:");
+        for (int i = 0; i < pontos.length; i++) {
+            System.out.print(" (" + pontos[i].getX() + "," + pontos[i].getY() + ")");
+        }
     }
 }
