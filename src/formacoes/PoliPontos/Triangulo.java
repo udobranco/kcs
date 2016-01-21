@@ -16,7 +16,7 @@ public class Triangulo extends Poligono {
      *
      * @param pontos[] - group of Points data type that defines a triangul
      */
-    public Triangulo(Ponto2D[] pontos) {
+    public Triangulo(Ponto[] pontos) {
         if (pontos.length == 3) {
             super.nLados = 3;
             System.arraycopy(pontos, 0, super.pontos, 0, 3);

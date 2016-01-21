@@ -11,7 +11,7 @@ package formacoes.PoliPontos;
  */
 public class Quadrilatero extends Poligono {
 
-    public Quadrilatero(Ponto2D[] pontos) {
+    public Quadrilatero(Ponto[] pontos) {
         if (pontos.length == 4) {
             super.nLados = 4;
             System.arraycopy(pontos, 0, super.pontos, 0, 4);

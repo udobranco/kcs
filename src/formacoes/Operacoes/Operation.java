@@ -11,6 +11,9 @@ package formacoes.Operacoes;
  */
 public class Operation implements IOperations {
 
+    private String name;
+    private int[] list; 
+    
     @Override
     public int sum2val(int val1,int val2) {
         return val1+val2;

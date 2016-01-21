@@ -12,7 +12,7 @@ package formacoes.PoliPontos;
 public abstract class Poligono implements IPoligono {
 
     protected int nLados;
-    protected Ponto2D[] pontos;
+    protected Ponto[] pontos;
 
     /**
      * calculates the perimeter of a triangul
@@ -35,7 +35,7 @@ public abstract class Poligono implements IPoligono {
      * @return
      */
     @Override
-    public Ponto2D[] getPontos() {
+    public Ponto[] getPontos() {
         return pontos;
     }
 
@@ -45,8 +45,8 @@ public abstract class Poligono implements IPoligono {
     @Override
     public void pointsToString() {
         System.out.print("Os pontos da figura sao:");
-        for (int i = 0; i < pontos.length; i++) {
-            System.out.print(" (" + pontos[i].getX() + "," + pontos[i].getY() + ")");
+        for (Ponto ponto : pontos) {
+            System.out.print(" (" + ponto.getX() + "," + ponto.getY() + ")");
         }
     }
 }
