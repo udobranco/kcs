@@ -25,7 +25,7 @@ public abstract class Poligono implements IPoligono {
         for (int i = 0; i < pontos.length - 1; i++) {
             perimeter += pontos[i].distance(pontos[i + 1]);
         }
-        perimeter += pontos[0].distance(pontos[pontos.length]);
+        perimeter += pontos[0].distance(pontos[pontos.length-]);
         System.out.println("O perimetro é: "+perimeter);
     }
 
