@@ -9,19 +9,19 @@ package formacoes.node;
  *
  * @author Udo Branco <udobranco@gmail.com>
  */
-public class NumberNode extends ValueNode<int>{
-    
-private int value;
-    
-    public NumberNode(int value){
-    this.value=value;
+public class NumberNode extends ValueNode<Integer> {
+
+    private int value;
+
+    public NumberNode(int value) {
+        this.value = value;
     }
 
     @Override
-    public int getValue() {
+    public Integer getValue() {
         return value;
     }
 
-    
-    
 }
+
+
