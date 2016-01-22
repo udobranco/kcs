@@ -33,7 +33,7 @@ public class Operation implements IOperations {
     public int sum3val(int val1, int val2, int val3) {
         /**
          * nao usei return sum2val(val1+val2)+val3 porque 
-         * em termos de compilador era introduzir esforço desnecessario
+         * em termos de compilador era introduzir esforco desnecessario
          */
         return val1+val2+val3;
     }
